@@ -1,0 +1,32 @@
+.slider-navigation {
+    z-index: 999;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    width: 100%;
+    bottom: 0;
+}
+
+.slider-navigation .nav-btn {
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 2px rgba(255, 255,255, 0.5);
+    transition: 0.3s ease;
+}
+
+.slider-navigation .nav-btn.active {
+    background: #2696E9;
+}
+
+.slider-navigation .nav-btn:not(:last-child){
+    margin-right: 20px;
+}
+
+.slider-navigation .nav-btn:hover {
+    transform: scale(1.2);
+}

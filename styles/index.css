@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+@import url('./sections/header.css');
+@import url('./sections/home.css');
+
+@import url('./components/video-slide.css');
+@import url('./components/slider-navigation.css');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --white: #fff;
+    --primary: #2692E9;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 1.5em;
+    height: 100%;
+    z-index: 777;
+}
+
+
+/*
+breakpoints
+mobile: 320px - 400px
+tablets: 481px - 768px
+laptops: 769px - 1024px
+desktop:1024px - 1200px
+extralarge: 1201px - more
+*/
